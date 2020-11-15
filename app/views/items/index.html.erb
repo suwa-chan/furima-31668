@@ -151,9 +151,6 @@
           </li>
         <% end %>
       <% else %>
-      <% end %>
-
-      <% unless @items.exists? %>
         <li class='list'>
           <%= link_to "#" do %>
             <div class='item-img-content'>
@@ -194,7 +191,6 @@
             </div>
           <% end %>
         </li>
-      <% else %>
       <% end %>
     </ul>
   </div>
